@@ -1,12 +1,11 @@
 import * as React from "react";
-import * as ReactDOM from "react-dom";
+import { render } from "react-dom";
 
-import Hello from "./components/Hello";
+import App from "./containers/App";
+import Hello from "./components/Hello/Hello";
 
-// const title = 'My Typescript React Redux Webpack Setup';
-
-ReactDOM.render(
-  <Hello compiler="TypeScript" framework="React" />,
+render(
+  <App />,
   document.getElementById('app')
 );
 
