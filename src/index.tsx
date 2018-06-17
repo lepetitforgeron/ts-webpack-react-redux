@@ -1,7 +1,7 @@
-import * as React from "react";
-import { render } from "react-dom";
+import * as React from 'react';
+import { render } from 'react-dom';
 
-import App from "./containers/App/App";
+import App from './containers/App/App';
 
 render(
   <App />,

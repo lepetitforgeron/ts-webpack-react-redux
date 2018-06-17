@@ -5,7 +5,7 @@ const {
   css,
   injectGlobal,
   keyframes,
-  ThemeProvider
+  ThemeProvider,
 } = styledComponents as styledComponents.ThemedStyledComponentsModule<
   ThemeInterface
 >;
@@ -15,7 +15,7 @@ export interface ThemeInterface {
 }
 
 export const theme = {
-  primaryColor: "#000011"
+  primaryColor: '#000011',
 };
 
 export default styled;
